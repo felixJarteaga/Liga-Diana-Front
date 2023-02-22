@@ -11,8 +11,8 @@ const routes: Routes = [
     component: MainComponent,
     children: [
       { path: '', component: JornadasComponent },
-      { path: 'clasificacion', component: ClasificacionComponent },
       { path: 'administrador', component: AdministradorComponent },
+      { path: 'clasificacion', component: ClasificacionComponent },
     ],
   },
 ];
